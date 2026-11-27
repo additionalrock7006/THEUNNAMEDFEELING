@@ -1,0 +1,19 @@
+[
+  {
+    "itemId": "spanish-lat",
+    "itemName": "Spanish Latte",
+    "category": "coffee",
+    "selections": {
+      "size": "Regular",
+      "hot": "Hot",
+      "extras": "None"
+    },
+    "unitPrice": 99,
+    "quantity": 1,
+    "totalPrice": 99,
+    "notes": "",
+    "id": "ord_1795713638986_tqiv",
+    "createdAt": "2026-11-26T17:20:39.007Z",
+    "completed": false
+  }
+]

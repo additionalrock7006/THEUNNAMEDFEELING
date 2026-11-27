@@ -1,0 +1,602 @@
+[
+  {
+    "id": "matcha-mt",
+    "name": "Matcha Milk Tea",
+    "category": "milktea",
+    "basePrice": 79,
+    "image": "booba.webp",
+    "optionGroups": [
+      {
+        "key": "size",
+        "label": "Select a size:",
+        "defaultValue": "Regular",
+        "options": [
+          {
+            "label": "Regular",
+            "priceChange": 0
+          },
+          {
+            "label": "Large",
+            "priceChange": 15
+          }
+        ]
+      },
+      {
+        "key": "iced",
+        "label": "Iced:",
+        "defaultValue": "Iced",
+        "options": [
+          {
+            "label": "No Ice",
+            "priceChange": 0
+          },
+          {
+            "label": "Less Ice",
+            "priceChange": 0
+          },
+          {
+            "label": "Iced",
+            "priceChange": 0
+          }
+        ]
+      },
+      {
+        "key": "sugar",
+        "label": "Sugar Level:",
+        "defaultValue": "Normal Sugar",
+        "options": [
+          {
+            "label": "No Sugar",
+            "priceChange": 0
+          },
+          {
+            "label": "30%",
+            "priceChange": 0
+          },
+          {
+            "label": "Normal Sugar",
+            "priceChange": 0
+          },
+          {
+            "label": "Extra Sugar",
+            "priceChange": 0
+          }
+        ]
+      },
+      {
+        "key": "addons",
+        "label": "Addons:",
+        "defaultValue": "None",
+        "options": [
+          {
+            "label": "None",
+            "priceChange": 0
+          },
+          {
+            "label": "Pearls",
+            "priceChange": 15
+          },
+          {
+            "label": "Crystals",
+            "priceChange": 15
+          },
+          {
+            "label": "Cream Cheese",
+            "priceChange": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hok",
+    "name": "Hokkaido Milk Tea",
+    "category": "milktea",
+    "basePrice": 79,
+    "image": "booba.webp",
+    "optionGroups": [
+      {
+        "key": "size",
+        "label": "Select a size:",
+        "defaultValue": "Regular",
+        "options": [
+          {
+            "label": "Regular",
+            "priceChange": 0
+          },
+          {
+            "label": "Large",
+            "priceChange": 15
+          }
+        ]
+      },
+      {
+        "key": "iced",
+        "label": "Iced:",
+        "defaultValue": "Iced",
+        "options": [
+          {
+            "label": "No Ice",
+            "priceChange": 0
+          },
+          {
+            "label": "Less Ice",
+            "priceChange": 0
+          },
+          {
+            "label": "Iced",
+            "priceChange": 0
+          }
+        ]
+      },
+      {
+        "key": "sugar",
+        "label": "Sugar Level:",
+        "defaultValue": "Normal Sugar",
+        "options": [
+          {
+            "label": "No Sugar",
+            "priceChange": 0
+          },
+          {
+            "label": "30%",
+            "priceChange": 0
+          },
+          {
+            "label": "Normal Sugar",
+            "priceChange": 0
+          },
+          {
+            "label": "Extra Sugar",
+            "priceChange": 0
+          }
+        ]
+      },
+      {
+        "key": "addons",
+        "label": "Addons:",
+        "defaultValue": "None",
+        "options": [
+          {
+            "label": "None",
+            "priceChange": 0
+          },
+          {
+            "label": "Pearls",
+            "priceChange": 15
+          },
+          {
+            "label": "Crystals",
+            "priceChange": 15
+          },
+          {
+            "label": "Cream Cheese",
+            "priceChange": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ok",
+    "name": "Okinawa Milk Tea",
+    "category": "milktea",
+    "basePrice": 79,
+    "image": "booba.webp",
+    "optionGroups": [
+      {
+        "key": "size",
+        "label": "Select a size:",
+        "defaultValue": "Regular",
+        "options": [
+          {
+            "label": "Regular",
+            "priceChange": 0
+          },
+          {
+            "label": "Large",
+            "priceChange": 15
+          }
+        ]
+      },
+      {
+        "key": "iced",
+        "label": "Iced:",
+        "defaultValue": "Iced",
+        "options": [
+          {
+            "label": "No Ice",
+            "priceChange": 0
+          },
+          {
+            "label": "Less Ice",
+            "priceChange": 0
+          },
+          {
+            "label": "Iced",
+            "priceChange": 0
+          }
+        ]
+      },
+      {
+        "key": "sugar",
+        "label": "Sugar Level:",
+        "defaultValue": "Normal Sugar",
+        "options": [
+          {
+            "label": "No Sugar",
+            "priceChange": 0
+          },
+          {
+            "label": "30%",
+            "priceChange": 0
+          },
+          {
+            "label": "Normal Sugar",
+            "priceChange": 0
+          },
+          {
+            "label": "Extra Sugar",
+            "priceChange": 0
+          }
+        ]
+      },
+      {
+        "key": "addons",
+        "label": "Addons:",
+        "defaultValue": "None",
+        "options": [
+          {
+            "label": "None",
+            "priceChange": 0
+          },
+          {
+            "label": "Pearls",
+            "priceChange": 15
+          },
+          {
+            "label": "Crystals",
+            "priceChange": 15
+          },
+          {
+            "label": "Cream Cheese",
+            "priceChange": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "winter",
+    "name": "Wintermelon Milk Tea",
+    "category": "milktea",
+    "basePrice": 79,
+    "image": "booba.webp",
+    "optionGroups": [
+      {
+        "key": "size",
+        "label": "Select a size:",
+        "defaultValue": "Regular",
+        "options": [
+          {
+            "label": "Regular",
+            "priceChange": 0
+          },
+          {
+            "label": "Large",
+            "priceChange": 15
+          }
+        ]
+      },
+      {
+        "key": "iced",
+        "label": "Iced:",
+        "defaultValue": "Iced",
+        "options": [
+          {
+            "label": "No Ice",
+            "priceChange": 0
+          },
+          {
+            "label": "Less Ice",
+            "priceChange": 0
+          },
+          {
+            "label": "Iced",
+            "priceChange": 0
+          }
+        ]
+      },
+      {
+        "key": "sugar",
+        "label": "Sugar Level:",
+        "defaultValue": "Normal Sugar",
+        "options": [
+          {
+            "label": "No Sugar",
+            "priceChange": 0
+          },
+          {
+            "label": "30%",
+            "priceChange": 0
+          },
+          {
+            "label": "Normal Sugar",
+            "priceChange": 0
+          },
+          {
+            "label": "Extra Sugar",
+            "priceChange": 0
+          }
+        ]
+      },
+      {
+        "key": "addons",
+        "label": "Addons:",
+        "defaultValue": "None",
+        "options": [
+          {
+            "label": "None",
+            "priceChange": 0
+          },
+          {
+            "label": "Pearls",
+            "priceChange": 15
+          },
+          {
+            "label": "Crystals",
+            "priceChange": 15
+          },
+          {
+            "label": "Cream Cheese",
+            "priceChange": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "matcha-cof",
+    "name": "Matcha Latte",
+    "category": "coffee",
+    "basePrice": 99,
+    "image": "caffe.webp",
+    "optionGroups": [
+      {
+        "key": "size",
+        "label": "Select a size:",
+        "defaultValue": "Regular",
+        "options": [
+          {
+            "label": "Regular",
+            "priceChange": 0
+          },
+          {
+            "label": "Large",
+            "priceChange": 15
+          }
+        ]
+      },
+      {
+        "key": "hot",
+        "label": "Hot or Iced:",
+        "defaultValue": "Hot",
+        "options": [
+          {
+            "label": "Hot",
+            "priceChange": 0
+          },
+          {
+            "label": "Iced",
+            "priceChange": 0
+          }
+        ]
+      },
+      {
+        "key": "extras",
+        "label": "Extras:",
+        "defaultValue": "None",
+        "options": [
+          {
+            "label": "None",
+            "priceChange": 0
+          },
+          {
+            "label": "Shot of Espresso",
+            "priceChange": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ame",
+    "name": "Americano",
+    "category": "coffee",
+    "basePrice": 99,
+    "image": "caffe.webp",
+    "optionGroups": [
+      {
+        "key": "size",
+        "label": "Select a size:",
+        "defaultValue": "Regular",
+        "options": [
+          {
+            "label": "Regular",
+            "priceChange": 0
+          },
+          {
+            "label": "Large",
+            "priceChange": 15
+          }
+        ]
+      },
+      {
+        "key": "hot",
+        "label": "Hot or Iced:",
+        "defaultValue": "Hot",
+        "options": [
+          {
+            "label": "Hot",
+            "priceChange": 0
+          },
+          {
+            "label": "Iced",
+            "priceChange": 0
+          }
+        ]
+      },
+      {
+        "key": "extras",
+        "label": "Extras:",
+        "defaultValue": "None",
+        "options": [
+          {
+            "label": "None",
+            "priceChange": 0
+          },
+          {
+            "label": "Shot of Espresso",
+            "priceChange": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "spanish-lat",
+    "name": "Spanish Latte",
+    "category": "coffee",
+    "basePrice": 99,
+    "image": "caffe.webp",
+    "optionGroups": [
+      {
+        "key": "size",
+        "label": "Select a size:",
+        "defaultValue": "Regular",
+        "options": [
+          {
+            "label": "Regular",
+            "priceChange": 0
+          },
+          {
+            "label": "Large",
+            "priceChange": 15
+          }
+        ]
+      },
+      {
+        "key": "hot",
+        "label": "Hot or Iced:",
+        "defaultValue": "Hot",
+        "options": [
+          {
+            "label": "Hot",
+            "priceChange": 0
+          },
+          {
+            "label": "Iced",
+            "priceChange": 0
+          }
+        ]
+      },
+      {
+        "key": "extras",
+        "label": "Extras:",
+        "defaultValue": "None",
+        "options": [
+          {
+            "label": "None",
+            "priceChange": 0
+          },
+          {
+            "label": "Shot of Espresso",
+            "priceChange": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cafe-lat",
+    "name": "Cafe Latte",
+    "category": "coffee",
+    "basePrice": 99,
+    "image": "caffe.webp",
+    "optionGroups": [
+      {
+        "key": "size",
+        "label": "Select a size:",
+        "defaultValue": "Regular",
+        "options": [
+          {
+            "label": "Regular",
+            "priceChange": 0
+          },
+          {
+            "label": "Large",
+            "priceChange": 15
+          }
+        ]
+      },
+      {
+        "key": "hot",
+        "label": "Hot or Iced:",
+        "defaultValue": "Hot",
+        "options": [
+          {
+            "label": "Hot",
+            "priceChange": 0
+          },
+          {
+            "label": "Iced",
+            "priceChange": 0
+          }
+        ]
+      },
+      {
+        "key": "extras",
+        "label": "Extras:",
+        "defaultValue": "None",
+        "options": [
+          {
+            "label": "None",
+            "priceChange": 0
+          },
+          {
+            "label": "Shot of Espresso",
+            "priceChange": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "but-cro",
+    "name": "Buttered Croissant",
+    "category": "pastry",
+    "basePrice": 89,
+    "image": "kek.webp"
+  },
+  {
+    "id": "choc-chip",
+    "name": "Chocolate Chip Cookie",
+    "category": "pastry",
+    "basePrice": 69,
+    "image": "kek.webp"
+  },
+  {
+    "id": "blue-muffin",
+    "name": "Blueberry Muffin",
+    "category": "pastry",
+    "basePrice": 69,
+    "image": "kek.webp"
+  },
+  {
+    "id": "matcha-waffle",
+    "name": "Matcha Sprinkled Waffle",
+    "category": "pastry",
+    "basePrice": 89,
+    "image": "kek.webp"
+  }
+]
