@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 7001;
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://creativitea-hiqatxds0-rivera-s-creativi-tea-website.vercel.app",
+  "https://theunnamedfeeling-frontend-iu2ebx614.vercel.app/",
   ...(process.env.CLIENT_URL
     ? process.env.CLIENT_URL.split(",").map((url) => url.trim().replace(/\/+$/, ""))
     : []),
