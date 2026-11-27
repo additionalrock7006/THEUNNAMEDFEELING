@@ -1,0 +1,8 @@
+.product-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates exactly 2 equal columns */
+  gap: 24px; /* Space between the cards */
+  max-width: 700px; /* Limits overall width so it stays nicely centered */
+  margin: 40px auto; /* Centers the container on the page */
+  padding: 0 20px;
+}

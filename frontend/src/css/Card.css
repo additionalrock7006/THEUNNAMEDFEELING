@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'MyHandwriting';
+  src: url('/font/Myhandwriting-Regular.woff2') format('woff2');
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(167, 167, 245, 0);
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.product-photo {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.product-name {
+  text-align: center;
+  font-family: 'MyHandwriting';
+  font-size: 18px;
+  margin: 4px 0;
+}
+
+.product-price {
+  padding-left: 0.5rem;
+}
+
+.product-desc {
+  font-family: 'MyHandwriting';
+  text-align: center;
+  margin: 0 0 6px 0;
+}
+
+.add-button {
+  border: none;
+  background-color: rgba(255, 0, 0, 0);
+  cursor: pointer;
+  width: 100%;
+  max-width: 250px;
+}
