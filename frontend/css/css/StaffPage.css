@@ -1,0 +1,372 @@
+.staff-dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 20px 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  color: #1e293b;
+  background-color: #f8fafc;
+  min-height: 100vh;
+}
+
+/* Header & Controls */
+.staff-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 20px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.staff-title-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.staff-title-group h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+}
+
+.staff-stats {
+  display: flex;
+  gap: 8px;
+}
+
+.stat-badge {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.stat-pending {
+  background-color: #fef3c7;
+  color: #b45309;
+}
+
+.stat-completed {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.staff-controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* Filter Tabs */
+.filter-tabs {
+  display: inline-flex;
+  background-color: #e2e8f0;
+  padding: 3px;
+  border-radius: 8px;
+}
+
+.filter-tab {
+  border: none;
+  background: transparent;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #475569;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.filter-tab:hover {
+  color: #0f172a;
+}
+
+.filter-tab.active {
+  background-color: #ffffff;
+  color: #0f172a;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.btn-refresh {
+  background-color: #0f172a;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.btn-refresh:hover:not(:disabled) {
+  background-color: #334155;
+}
+
+.btn-refresh:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Error Alert */
+.staff-alert {
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #b91c1c;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 64px 20px;
+  background-color: #ffffff;
+  border: 1px dashed #cbd5e1;
+  border-radius: 12px;
+}
+
+.empty-state-title {
+  margin: 0 0 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #334155;
+}
+
+.empty-state-sub {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #64748b;
+}
+
+/* Orders Grid */
+.orders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+
+/* Order Ticket Card */
+.order-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-top: 4px solid #f59e0b;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.2s ease;
+}
+
+.order-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.order-card.is-completed {
+  border-top-color: #10b981;
+  background-color: #f8fafc;
+  opacity: 0.78;
+}
+
+/* Card Top Meta */
+.order-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 0.8rem;
+}
+
+.order-meta {
+  color: #64748b;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.order-id {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-weight: 600;
+  color: #334155;
+}
+
+.status-pill {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+.status-pill.pending {
+  background-color: #fef3c7;
+  color: #b45309;
+}
+
+.status-pill.done {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+/* Card Body */
+.order-body {
+  margin-bottom: 16px;
+}
+
+.is-completed .order-item-name {
+  text-decoration: line-through;
+  color: #64748b;
+}
+
+.order-item-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.order-qty {
+  background-color: #0f172a;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 2px 8px;
+  border-radius: 6px;
+  line-height: 1.4;
+}
+
+.is-completed .order-qty {
+  background-color: #94a3b8;
+}
+
+.order-item-info {
+  flex: 1;
+}
+
+.order-item-name {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #0f172a;
+  line-height: 1.3;
+}
+
+.order-category {
+  display: inline-block;
+  font-size: 0.78rem;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+.order-price {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #0f172a;
+  white-space: nowrap;
+}
+
+.order-customer {
+  margin-top: 10px;
+  font-size: 0.875rem;
+  color: #334155;
+}
+
+.meta-label {
+  font-weight: 600;
+  color: #64748b;
+}
+
+/* Customizations List */
+.order-options {
+  margin: 10px 0 0;
+  padding: 8px 12px 8px 26px;
+  background-color: #f1f5f9;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #334155;
+}
+
+.order-options li {
+  margin-bottom: 3px;
+}
+
+.order-options li:last-child {
+  margin-bottom: 0;
+}
+
+/* Kitchen Notes */
+.order-notes {
+  margin-top: 10px;
+  padding: 8px 10px;
+  background-color: #fffbeb;
+  border-left: 3px solid #f59e0b;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: #92400e;
+}
+
+/* Card Footer Actions */
+.order-actions {
+  display: flex;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.btn-action {
+  border: none;
+  border-radius: 7px;
+  padding: 8px 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.btn-complete {
+  flex: 1;
+  background-color: #10b981;
+  color: #ffffff;
+}
+
+.btn-complete:hover {
+  background-color: #059669;
+}
+
+.btn-undo {
+  flex: 1;
+  background-color: #e2e8f0;
+  color: #334155;
+}
+
+.btn-undo:hover {
+  background-color: #cbd5e1;
+}
+
+.btn-delete {
+  background-color: transparent;
+  color: #ef4444;
+  border: 1px solid #fecaca;
+}
+
+.btn-delete:hover {
+  background-color: #fef2f2;
+  border-color: #ef4444;
+}
